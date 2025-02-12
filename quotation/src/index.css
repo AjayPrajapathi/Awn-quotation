@@ -1,0 +1,205 @@
+/* @import "tailwindcss"; */
+/* .container{
+    max-width: 400px;
+    margin-top:40px;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+  
+    height: 100vh;
+   
+} */
+@font-face {
+    font-family: 'Centrale Sans';
+    src: url("./styles/fonts/CentraleSans-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Centrale Sans';
+    src: url("./styles/fonts/CentraleSans-Medium.ttf") format("truetype");
+    font-weight: 500;
+
+}
+@font-face {
+    font-family: 'Centrale Sans';
+    src: url("./styles/fonts/CentraleSansRegular.otf") format("opentype");
+    font-weight: normal;
+
+}
+
+/* urdu fonts */
+
+
+@font-face {
+    font-family:'Dinar One' ;
+    src: url("./styles/fonts/ge\ dinarone\ bold_8.ttf") format("truetype");
+    font-weight: bold;
+}
+
+ @font-face{
+font-family:'Dinar One' ;
+src:url("./styles/fonts/GE_Dinar_One_Medium.otf") format("opentype");
+font-weight: 500;
+
+ }
+    
+@font-face{
+    font-family:'Dinar One'; 
+    src:url("./styles/fonts/GE_Dinar_One_Light.otf") format("opentype");
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+html,body{
+    font-family: 'Dinar One', sans-serif;
+font-weight: normal;
+    
+}
+
+/* .first-page{
+    background-color: #057B86;
+   
+    height: 500px;
+    padding: 30px;
+   
+} */
+
+
+/* .firstp-footer {
+    
+
+    height: 40px;
+    margin: 0 30px;
+    border-left: 2px solid #C09B40;
+    border-right: 2px solid #C09B40;
+    border-top: none;
+    border-bottom: none;
+
+} */
+
+
+
+
+.first-page {
+    position: relative;      
+    min-height: 500px;        
+    background-color: #057B86;
+    padding: 20px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .firstp-footer {
+    position: absolute;      
+    bottom: 50px;            
+    left: 0;
+    right: 0;
+    height: 80px;
+    /* background-color: #057B86; */
+    color:white;
+    border-left: 8px solid #C09B40;
+    border-right: 8px solid #C09B40;
+    margin: 0 30px;           
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-weight: bold;
+  }
+.golden{
+    color: #C09B40;
+    /* font-size: 2%; */
+}
+
+.footer-left{
+    /* direction: ltr; */
+    display: flex;
+    flex-direction: column;
+    /* font-size: 2px; */
+    /* margin-left: 40px; */
+    /* padding:20px; */
+    /* margin-right: 20px; */
+    margin: 4px 0px;
+
+}
+.footer-left div{
+    display: flex;
+    margin-left: 20px;
+    
+    /* margin: 0 30px; */
+    /* padding: 5px; */
+    /* font-size: 2px; */
+    
+}
+/* .footer-left div span {
+    color: white;
+} */
+
+
+
+
+
+
+
+
+
+
+.side-heading{
+    display: inline-block;
+    font-family:'Dinar One', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background:#E6E7E9;
+    padding:2px 4px 2px 34px;
+    /* margin-left: 40px; */
+    
+}
+.main-container{
+display:flex;
+/* flex-wrap: ; */
+justify-content: space-around;
+margin-left: 30px;
+
+}
+
+.list-container{
+    width: 25%;
+   
+    /* box-shadow: 0 0 5px 0 rgb(209, 209, 209); */
+}
+
+.list-heading{
+    background: #F2F3F4;
+    font-family: 'Dinar One', sans-serif;
+    font-weight: 500;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    /* text-align: center; */
+}
+
+.square-list{
+    list-style-type: square;
+    list-style-position: inside;
+    /* padding-right: 40px; */
+}
+.square-list li::marker {
+    color:#057B86; /* Change bullet color */
+    font-size: 2em; /* Adjust bullet size */
+    direction: rtl;
+}
+
+
+
+
+
+
