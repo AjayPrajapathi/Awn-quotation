@@ -17,29 +17,31 @@ import Twelve from './pages/Twelve'
 import Thirteen from './pages/Thirteen'
 import Fourteen from './pages/Fourteen'
 import Fifteen from './pages/Fifteen'
+import Sixteen from './pages/sixteen'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-   <div dir='rtl' className='px-8 py-2'>
-    {/* <One/> */}
-    {/* <Two/> */}
-    {/* <Three/> */}
-    {/* <Four/> */}
-    {/* <Five/> */}
-    {/* <Six/> */}
-    {/* <Seven/> */}
-    {/* <Eight/> */}
-    {/* <Nine/> */}
-    {/* <Ten/> */}
-    {/* <Eleven/> */}
-    {/* <Twelve/> */}
+   <div dir='rtl' className=''>
+    <One/>
+    <Two/>
+    <Three/>
+    <Four/>
+    <Five/>
+    <Six/>
+    <Seven/>
+    <Eight/>
+    <Nine/>
+    <Ten/>
+    <Eleven/>
+    <Twelve/>
     {/* <Thirteen/> */}
+
     {/* <Fourteen/> */}
     {/* <Fifteen/> */}
-    
- {/* <Four /> */}
+    <Sixteen/>
+ {/* < /> */}
    </div>
   )
 }
